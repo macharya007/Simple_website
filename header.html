@@ -1,0 +1,80 @@
+<html>
+<style>
+    body {
+        margin: 0;
+    }
+    
+    @font-face {
+        font-family: myfont;
+        src: url(icons/TechnoAgony.otf);
+    }
+    #topnav {
+        overflow: hidden;
+        font-family: myfont;
+    }
+    
+    #topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 2px 80px;
+        text-decoration: none;
+        font-size: 30;
+    }
+    
+    #topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    #topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    body {
+        background-image: url(icons/headbg.jpg);
+        background-size: cover;
+    }
+    #searchbox{
+        height: 35px;
+        border-radius:15px;
+        border-color:azure;
+        background:transparent;
+        color:azure;
+        border: 2px solid;
+    }    
+    
+    #headtag {
+        font-size: 95;
+        color: whitesmoke;
+        font-family: myfont;
+    }
+</style>
+<body bgcolor=#333>
+    <table>
+        <tr>
+            <td rowspan="2"><img style="border-radius:50%" src="icons/mainico.gif" height="150" width="150"></td>
+            <td id="headtag">penWorld</td>
+            <td><pre>                                                 </pre></td>
+            <td><input type="text" id="searchbox" size="50"></td>
+            <td><input type="image" src="icons/search.png" style="height: 35px"></td>
+            <td><pre>     </pre> </td>
+            <td><input type="image" src="icons/menu.png" style="height: 35px"></td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <div id="topnav">
+                    <a href="trend.html" target="mainpage">Trending</a>
+                    <a href="music/musichome.html" target="mainpage">Music</a>
+                    <a href="games/gameshome.html" target="mainpage">Games</a>
+                    <a href="poster/movieshome.html" target="mainpage">Movies</a>
+                    <a href="about.html" target="mainpage">About</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
